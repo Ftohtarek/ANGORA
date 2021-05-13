@@ -429,7 +429,7 @@ font-size: 14px;
 font-weight: 400;
 }
 #client .carousel-caption .informatoin p{
-    font-size: 22   px;
+    font-size: 22px;
     font-weight: 400;
     color:#666666 !important ;
 
@@ -624,6 +624,15 @@ footer{
     #client .carousel-inner{
         bottom :30;
     }
+    #client .carousel-caption .informatoin p{
+        font-size: 14px;
+    }
+    #touch h3 {
+        font-size: 24px;
+    }
+    h1,#home h2{
+        font-size: 2rem !important;
+    }
 }
 @media screen and (max-width:576px){
     nav .container{
@@ -642,5 +651,8 @@ footer{
     }
     #client .carousel-caption{
         bottom: -30% !important;
+    }
+    .container{
+        width: 90% !important;
     }
 }
